@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+    <!-- Todo: put here your site title -->
+    <title>Kaushal Makadia</title>
+    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="Data Analytics, Finance, Business Intelligence" />
+    <!-- Todo: improve your SEO by adding a small description of you -->
+    <meta name="description" content="Kaushal Makadia | Data Analyst" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+
+    <!-- Todo: remove the below script once you finish your portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Hi, I'm <span class="text-color-main">Kaushal</span>
+          <br />
+          The Data Analyst you're looking for!
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >Know me more</a
+          >
+        </p>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="350px"
+                src="assets/profilenew.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                🍕 I love data more than I love pizza, and that's saying a lot because I really love pizza!
+              </p>
+              <p class="about-wrapper__info-text">
+                🎓 I've done my Bachelor's in Information & Communication Technology at Pandit Deendayal Energy University & I'm currently pursuing masters in Business Intelligence & Analytics at Stevens Institute of Technology.
+              </p>
+              <p class="about-wrapper__info-text">
+                ✏️ What I'm good at?
+              </p>
+              <p class="about-wrapper__info-text">
+                Data Analytics | Data Visualization | Finance | Programming
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="https://drive.google.com/file/d/1OI_NCpM97gzDTbqv8nqw24tZy8Wcey2g/view?usp=sharing"
+                >
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Pizzeria Optimization</h3>
+                <div>
+                  <p class="mb-4">
+                    🍕 Extracted top 10 bestselling pizzas after performing EDA & created dashboards in Tableau for market research from dataset
+                    containing 48000 orders
+                  </p>
+                  <p class="mb-4">
+                    🍕 Engineered an optimization model that recommends which pizza to make when ingredients are limited, such
+                    that profit is maximum & food wastage is minimum and developed model that suggests optimized discount rate during festive
+                    seasons such that sales are boosted & solid profit margin is maintained too
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://github.com/IamKaushal2/pizzeria-optimization"
+                >
+                  Source Code
+                </a>
+                <!-- REMOVE THIS COMMENT TO ACTIVATE OTHER BUTTON
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="#!"
+                >
+                  See Live
+                </a>
+                -->
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://github.com/IamKaushal2/pizzeria-optimization" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/pizzeria.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Airbnb Hypothesis Verification & Property Review Prediction</h3>
+                <div>
+                  <p class="mb-4">
+                    🏨 Performed EDA on the Airbnb data and verified various hypotheses like "larger properties should receive more reviews because larger properties can accommodate more guests and therefore generate more traffic", "listings that are priced higher than listings of similar sizes and/or locations will receive fewer reviews than those that are priced lower"
+                  </p>
+                  <p class="mb-4">
+                    🏨 Predicted “reviews_per_month” with the help of accurate supervised predictive models.
+                    
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://colab.research.google.com/drive/1Bu5W-4fV6OSsDMyMUYrOYpaZ-YF82tLH?usp=sharing"
+                >
+                  Source Code
+                </a>
+                <!-- REMOVE THIS COMMENT TO ACTIVATE OTHER BUTTON
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="#!"
+                >
+                  See Live
+                </a>
+                -->
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://colab.research.google.com/drive/1Bu5W-4fV6OSsDMyMUYrOYpaZ-YF82tLH?usp=sharing" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/airbnb.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Bank Customer Churn Prediction</h3>
+                <div>
+                  <p class="mb-4">
+                    💵 Performed Exploratory Data Analysis on the Customer Churn Dataset & then fit the dataset into machine learning classification algorithms like XGBOOST, Decision Tree, Random Forest & Support Vector Machines.
+                  </p>
+                  <p class="mb-4">
+                    💵 Out of those, chose the best algorithm for bank customer churn prediction.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://github.com/IamKaushal2/Churn-Prediction"
+                >
+                  Source Code
+                </a>
+                <!--REMOVE THIS COMMENT TO ACTIVATE OTHER BUTTON
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="#!"
+                >
+                  Source Code
+                </a>
+                -->
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://github.com/IamKaushal2/Churn-Prediction" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/bank.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Titanic Survival Prediction</h3>
+                <div>
+                  <p class="mb-4">
+                    Predicted whether a person, who had boarded the RMS Titanic has a chance of survival or not, using Machine Learning’s Logistic Regression model.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://github.com/IamKaushal2/Titanic"
+                >
+                  Source Code
+                </a>
+                <!--REMOVE THIS COMMENT TO ACTIVATE OTHER BUTTON
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="#!"
+                >
+                  Source Code
+                </a>
+                -->
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://github.com/IamKaushal2/Titanic" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/Titanic.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Compresso</h3>
+                <div>
+                  <p class="mb-4">
+                    Compresso at its core, using AI, does the image compression based on attribute scaling that will make sure that all the important segments of an image are restored as per the original image, yet scaling down the image size by underweighting the useless pixels in an image.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://devpost.com/software/compresso"
+                >
+                  Watch Video
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/IamKaushal2/compresso"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://github.com/IamKaushal2/compresso" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/Compresso.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">GUI for Page Replacement Algorithms</h3>
+                <div>
+                  <p class="mb-4">
+                    🖳 This is a GUI for Page Replacement Algorithms made using Tkinter
+                  </p>
+                  <p class="mb-4">
+                    🖳 The algorithms inculde: First In First Out algorithm, Last In First Out algorithm, Least Recently Used algorithm, Optimal algorithm & Random algorithm.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://youtu.be/nGDWGxS3ptM"
+                >
+                  Watch Video
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/IamKaushal2/GUI-for-Page-Replacement-Algorithms"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://github.com/IamKaushal2/GUI-for-Page-Replacement-Algorithms" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/gui.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Drum-Kit Website</h3>
+                <div>
+                  <p class="mb-4">
+                    This is a simple Drum-Kit website made with just HTML, CSS, JavaScript & love.
+                  </p>
+                  
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://github.com/IamKaushal2/Drum-Kit"
+                >
+                  Source Code
+                </a>
+                <!--REMOVE THIS COMMENT TO ACTIVATE OTHER BUTTON
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="#!"
+                >
+                  Source Code
+                </a>
+                -->
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://github.com/IamKaushal2/Drum-Kit" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/drum.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text">Would you like to work with me? Awesome!</p>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:kaushalmakadia123@gmail.com"
+            >Let's Talk</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          
+          <a rel="noreferrer" href="https://www.linkedin.com/in/i-am-kaushal/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://github.com/IamKaushal2" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="mailto:kaushalmakadia123@gmail.com" target="_blank">
+            <i class="fa fa-envelope fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
+        <p class="footer__text">
+          © 2019 -
+          <a rel="noreferrer" href="https://www.linkedin.com/in/i-am-kaushal/" target="_blank"
+            >Kaushal Makadia</a
+          >
+        </p>
+
+        
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>
